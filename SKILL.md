@@ -1,5 +1,5 @@
 ---
-name: hookdeck-webhooks
+name: hookdeck
 description: Hookdeck webhook proxy — event monitoring, retry management, filtering, transformations, bulk operations, and webhook infrastructure. Auto-triggers on Hookdeck, webhook retry, webhook monitoring, and event management tasks.
 disable-model-invocation: false
 user-invocable: true

@@ -284,7 +284,7 @@ done
 ## 11. Critical Gotchas
 
 1. **No official MCP server** — use `curl` via Bash for all Hookdeck operations
-2. **API key in team vault** — `$HOOKDECK_API_KEY`
+2. **API key** — store in 1Password, inject via `$HOOKDECK_API_KEY` environment variable
 3. **Request vs Event** — one request can create multiple events (retries). Don't confuse the IDs.
 4. **Bearer token auth** — Hookdeck authenticates to n8n via BEARER_TOKEN. This token must match n8n's webhook auth.
 5. **Bulk retry is async** — returns a batch ID. Check status separately.
